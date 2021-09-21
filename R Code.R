@@ -7,7 +7,6 @@ library(httr)
 library(lubridate)
 library(jsonlite)
 
-
 #Example 1: access ag land values data from nass using api ####
 data_url <- paste(
   "http://quickstats.nass.usda.gov/api/api_GET/?key=PLACE YOUR API KEY HERE",
